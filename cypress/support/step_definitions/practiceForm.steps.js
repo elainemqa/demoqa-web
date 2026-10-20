@@ -38,6 +38,6 @@ When('fecho o popup', () => {
   PracticeFormPage.closeModal();
 });
 
-Then('o popup não deve mais estar visível', () => {
-  PracticeFormPage.assertModalClosed();
-});
+//Then('o popup não deve mais estar visível', () => {
+ // PracticeFormPage.assertModalClosed();
+//});

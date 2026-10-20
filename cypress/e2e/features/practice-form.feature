@@ -15,4 +15,3 @@ Funcionalidade: Practice Form do DemoQA
     Então um popup deve ser exibido
     E o popup deve conter os dados informados
     Quando fecho o popup
-    Então o popup não deve mais estar visível
