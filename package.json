@@ -1,0 +1,17 @@
+{
+  "name": "demoqa-practice-form-bdd",
+  "version": "1.0.0",
+  "description": "Cypress + BDD (Cucumber) + Page Objects - Practice Form do DemoQA",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^14.0.0",
+    "esbuild": "^0.21.5"
+  }
+}

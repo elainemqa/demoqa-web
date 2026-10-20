@@ -1,0 +1,5 @@
+node_modules/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+# ATENÇÃO: cypress/fixtures/ NÃO é ignorado - o DesafioAcc.txt precisa ir para o GitHub
