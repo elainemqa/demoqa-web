@@ -1,6 +1,4 @@
-import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
-import HomePage from '../pages/HomePage';
-import FormsPage from '../pages/FormsPage';
+import { When, Then } from '@badeball/cypress-cucumber-preprocessor';
 import PracticeFormPage from '../pages/PracticeFormPage';
 import { buildFormData } from '../utils/formData';
 
@@ -8,17 +6,7 @@ import { buildFormData } from '../utils/formData';
 let formData;
 let pictureName;
 
-Given('o site DemoQA aberto', () => {
-  HomePage.open();
-});
-
-When('eu escolho a opção {string} na página inicial', (option) => {
-  HomePage.selectCard(option);
-  FormsPage.assertLoaded();
-});
-
-When('clico no submenu {string}', (submenu) => {
-  FormsPage.selectSubMenu(submenu);
+Then('a página Practice Form deve ser exibida', () => {
   PracticeFormPage.assertLoaded();
 });
 
